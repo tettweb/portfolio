@@ -2,16 +2,16 @@ import React from 'react'
 
 import Header from '../components/Header'
 
-const index = () => {
+const Index = () => {
 	return (
 		<>
 			<Header />
-			<div>index</div>
+			<div>Salut</div>
 		</>
 	)
 }
 
-export default index
+export default Index
 
 export const Head = () => (
 	<>

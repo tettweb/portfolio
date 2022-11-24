@@ -1,0 +1,72 @@
+// Resets
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+p,
+li,
+a,
+div {
+	font-family: Manrope, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+// Flexbox
+
+.col {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+// Colors
+
+$black: #000;
+$white: #fff;
+
+// Misc
+
+html {
+	scroll-behavior: smooth;
+}
