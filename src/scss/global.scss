@@ -6,6 +6,16 @@
 	box-sizing: border-box;
 }
 
+body {
+	margin: 0;
+}
+
+.container {
+	max-width: 1440px;
+	margin: auto;
+	padding: 0 80px;
+}
+
 h1,
 h2,
 h3,
@@ -21,6 +31,7 @@ li,
 a,
 div {
 	font-family: Manrope, sans-serif;
+	letter-spacing: 0.2px;
 }
 
 h1,
@@ -62,11 +73,47 @@ a {
 
 // Colors
 
-$black: #000;
-$white: #fff;
+$black: #1c1c1c;
+$green: #00e973;
+$grey: #474747;
+$lightGrey: #797979;
 
 // Misc
 
 html {
 	scroll-behavior: smooth;
 }
+
+// Design
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 180px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 19px;
+	transition: all 0.3s ease;
+	&.reg {
+		background-color: $green;
+		color: $black;
+		border: solid 2px $green;
+		&:hover {
+			background-color: $black;
+			color: $green;
+		}
+	}
+	&.inverted {
+		background-color: $black;
+		color: $green;
+		border: solid 2px $green;
+		&:hover {
+			background-color: $green;
+			color: $black;
+		}
+	}
+}
+
+// Imports
+
+@import 'header';
