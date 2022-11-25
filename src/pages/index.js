@@ -1,13 +1,13 @@
 import React from 'react'
-
 import Header from '../components/Header'
-import Button from '../components/Button'
-import { Link } from 'gatsby'
 
 const Index = () => {
 	return (
 		<>
 			<Header />
+			<div className='container'>
+				<h1 className='myName'>S</h1>
+			</div>
 		</>
 	)
 }
