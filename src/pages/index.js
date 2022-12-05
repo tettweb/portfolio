@@ -1,14 +1,10 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
-import { withPrefix } from 'gatsby'
+
 import Header from '../components/Header'
 
 const Index = () => {
 	return (
 		<>
-			<Helmet>
-				<script src={withPrefix('script.js')} type='text/javascript' />
-			</Helmet>
 			<Header />
 			<div className='container'>
 				<h1 id='homeTitle'>Simon Tett</h1>

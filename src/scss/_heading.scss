@@ -1,0 +1,16 @@
+#heading {
+	background-color: black;
+	padding: 65px 0 0 0;
+	.mainContainer {
+		justify-content: space-between;
+		align-items: center;
+		img {
+			width: 60%;
+		}
+		h1 {
+			font-size: 52px;
+			text-shadow: 6px 6px 9px rgba(222, 222, 222, 0.3);
+			transform: translateY(-50px);
+		}
+	}
+}

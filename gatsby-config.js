@@ -10,7 +10,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-wordpress',
 			options: {
-				url: 'https://stetro.larouchemc.com/graphql',
+				url: 'https://larouche-dev.com/stett/graphql',
 			},
 		},
 		{
