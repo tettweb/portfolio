@@ -21,6 +21,7 @@
 					}
 				}
 				.tracks {
+					margin: 0 0 120px;
 					h4 {
 						margin: 0 0 20px;
 					}
@@ -30,6 +31,10 @@
 						width: 35%;
 						margin: 0 0 20px;
 					}
+				}
+				.divider {
+					display: block;
+					width: 80%;
 				}
 			}
 		}

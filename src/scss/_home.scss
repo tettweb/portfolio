@@ -1,0 +1,64 @@
+#home {
+	padding: 90px 0 250px;
+	.intro {
+		p {
+			margin: 0 0 20px;
+			width: 70%;
+		}
+	}
+	.skills {
+		.container {
+			flex-wrap: wrap;
+			justify-content: center;
+			h2 {
+				width: 100%;
+				text-align: center;
+				margin: 0 0 55px;
+			}
+			.row {
+				justify-content: space-between;
+				width: 100%;
+				margin: 0 0 80px;
+				.item {
+					width: 25%;
+					align-items: center;
+					img {
+						margin: 0 0 30px;
+					}
+					h3 {
+						margin: 0 0 30px;
+					}
+					p {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	.me {
+		.container {
+			flex-wrap: wrap;
+			position: relative;
+			h2 {
+				width: 100%;
+				text-align: center;
+			}
+			img {
+				padding: 30px;
+				width: 20%;
+				border: solid 4px $green;
+				margin: 0 45px 0 0;
+			}
+			.text {
+				width: 70%;
+				p {
+					margin: 0 0 20px;
+				}
+				a {
+					position: absolute;
+					bottom: 0;
+				}
+			}
+		}
+	}
+}

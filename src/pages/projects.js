@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../components/Header'
 import Heading from '../components/Heading'
 import Divider from '../components/Divider'
+import Footer from '../components/Footer'
+
 import { graphql } from 'gatsby'
 import headingImage from '../images/heading_projects.png'
 
@@ -73,11 +75,13 @@ const Projects = ({ data }) => {
 										</div>
 									))}
 								</div>
+								<Divider />
 							</div>
 						))}
 					</div>
 				</section>
 			</main>
+			<Footer />
 		</>
 	)
 }

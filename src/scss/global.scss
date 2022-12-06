@@ -26,14 +26,6 @@ body {
 	padding: 0 80px;
 }
 
-.mainContainer {
-	max-width: 1064px;
-	margin: auto;
-}
-
-.innerContainer {
-}
-
 h1,
 h2,
 h3,
@@ -148,4 +140,6 @@ html {
 
 @import 'header';
 @import 'heading';
+@import 'home';
 @import 'projects';
+@import 'footer';

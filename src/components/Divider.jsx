@@ -3,7 +3,8 @@ import React from 'react'
 const Divider = () => {
 	return (
 		<svg
-			style={{ margin: '60px 0' }}
+			className='divider'
+			style={{ margin: '60px auto', width: '100%' }}
 			width='1280'
 			height='10'
 			viewBox='0 0 1280 10'

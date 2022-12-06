@@ -1,16 +1,23 @@
-#heading {
+.heading {
 	background-color: black;
 	padding: 65px 0 0 0;
-	.mainContainer {
+	.container {
 		justify-content: space-between;
 		align-items: center;
+		padding: 0 185px;
 		img {
 			width: 60%;
 		}
-		h1 {
-			font-size: 52px;
-			text-shadow: 6px 6px 9px rgba(222, 222, 222, 0.3);
+		.text {
 			transform: translateY(-50px);
+			h1 {
+				font-size: 52px;
+				text-shadow: 6px 6px 9px rgba(222, 222, 222, 0.3);
+			}
+			.subtitle {
+				font-size: 19px;
+				font-weight: 100;
+			}
 		}
 	}
 }

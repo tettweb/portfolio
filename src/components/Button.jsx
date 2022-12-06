@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Button = ({ type, uppercase, href }) => {
+const Button = ({ children, type, href }) => {
 	return (
 		<Link to={href} className={'btn ' + type}>
-			Button
+			{children}
 		</Link>
 	)
 }

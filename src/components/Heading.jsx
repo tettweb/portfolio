@@ -2,10 +2,13 @@ import React from 'react'
 
 const Heading = ({ imageUrl, imageAlt, title, subtitle }) => {
 	return (
-		<div id='heading'>
-			<div className='mainContainer row'>
+		<div className='heading'>
+			<div className='container row'>
 				<img src={imageUrl} alt={imageAlt} />
-				<h1>{title}</h1>
+				<div className='text col'>
+					<h1>{title}</h1>
+					{subtitle ? <p className='subtitle'>{subtitle}</p> : ''}
+				</div>
 			</div>
 		</div>
 	)
