@@ -1,5 +1,37 @@
 #projects {
 	padding: 100px 0 0 0;
-	.intro {
+	.projectList {
+		.container {
+			.item {
+				h3 {
+					margin: 0 0 30px;
+				}
+				.desc {
+					position: relative;
+					margin: 0 0 35px;
+					img {
+						width: 30%;
+						margin: 0 20px 0 0;
+					}
+					.text {
+						a {
+							position: absolute;
+							bottom: 0;
+						}
+					}
+				}
+				.tracks {
+					h4 {
+						margin: 0 0 20px;
+					}
+					.item {
+						align-items: center;
+						justify-content: space-between;
+						width: 35%;
+						margin: 0 0 20px;
+					}
+				}
+			}
+		}
 	}
 }

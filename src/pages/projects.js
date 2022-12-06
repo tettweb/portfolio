@@ -16,7 +16,7 @@ const Projects = ({ data }) => {
 			/>
 			<main id='projects'>
 				<section className='intro'>
-					<div className='mainContainer'>
+					<div className='container'>
 						<h2>Title H2</h2>
 						<p>
 							Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -34,7 +34,7 @@ const Projects = ({ data }) => {
 					</div>
 				</section>
 				<section className='projectList'>
-					<div className='mainContainer'>
+					<div className='container'>
 						{data.allWpProject.edges.map(project => (
 							<div key={project.node.id} className='item'>
 								<h3>{project.node.title}</h3>
@@ -45,8 +45,19 @@ const Projects = ({ data }) => {
 									/>
 									<div className='text'>
 										<p>{project.node.acfMusicProjects.description}</p>
-
-										<a href=''></a>
+										{/* If not link comes from query, no link display */}
+										{project.node.acfMusicProjects.link ? (
+											<a
+												className='btn reg'
+												href={project.node.acfMusicProjects.link}
+												target='_blank'
+												rel='noreferrer'
+											>
+												Try the game
+											</a>
+										) : (
+											''
+										)}
 									</div>
 								</div>
 								<div className='tracks'>
@@ -56,6 +67,7 @@ const Projects = ({ data }) => {
 											<p>{track.title}</p>
 											<audio
 												controls
+												controlsList='nodownload'
 												src={`https://storage.googleapis.com/stetro-portfolio-files/project-files/${track.namefile}`}
 											></audio>
 										</div>
