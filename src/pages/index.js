@@ -23,8 +23,9 @@ const Homepage = () => {
 						<h2>Welcome!</h2>
 						<p>
 							Hi! My name is Tett. I’ve been a video game music composer since a
-							couple of years now. Welcome to my website serving as a portfolio
-							of my creations. My works are mainly personal projects that I have
+							couple of years now. I studied jazz bass guitar and music overall
+							in college. Welcome to my website serving as a portfolio of my
+							creations. My works are mainly personal projects that I have
 							carried out for some of my friends, but I find myself ready to
 							undertake many other kinds of projects.
 						</p>

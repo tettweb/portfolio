@@ -24,10 +24,14 @@ const Header = () => {
 								</Link>
 							</li>
 							<li>
-								<Link to='/gear'>My Gear</Link>
+								<Link to='/equipment' activeClassName='active'>
+									My Equipment
+								</Link>
 							</li>
 							<li>
-								<Link to='/'>About Me</Link>
+								<Link to='/' activeClassName='active'>
+									About Me
+								</Link>
 							</li>
 						</ul>
 					</div>

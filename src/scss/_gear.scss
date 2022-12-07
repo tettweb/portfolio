@@ -1,0 +1,26 @@
+#gear {
+	.gear {
+		.container {
+			.item {
+				margin: 0 105px 40px;
+				border: 2px solid $green;
+				border-radius: 10px;
+				align-items: center;
+				padding: 40px 25px 40px 10px;
+				img {
+					transform: rotate(330deg);
+					width: 30%;
+				}
+				.text {
+					h3 {
+						margin: 0 0 15px;
+						text-transform: none;
+					}
+					p {
+						margin: 0 0 20px;
+					}
+				}
+			}
+		}
+	}
+}
